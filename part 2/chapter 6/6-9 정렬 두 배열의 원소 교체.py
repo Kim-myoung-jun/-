@@ -12,3 +12,5 @@ for i in range(k):
     else:
         break
 print(sum(a))
+
+print("git mod")
