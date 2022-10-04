@@ -1,6 +1,6 @@
 # 6-9 정렬 두 배열의 원소 교체
 
-n, k = map(int, input().split())
+n, k = map(int, input().split())#add comment
 a = list(map(int, input().split()))
 b = list(map(int, input().split()))
 
@@ -12,5 +12,5 @@ for i in range(k):
     else:
         break
 print(sum(a))
-
-print("git mod")
+print("branch mod 1")
+print("branch mod 2")
