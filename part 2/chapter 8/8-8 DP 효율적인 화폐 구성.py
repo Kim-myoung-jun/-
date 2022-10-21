@@ -11,7 +11,7 @@ for i in range(1, m+1):
     if i in money:
         dp[i] = 1
     else:
-        for j in range(n-1, 0, -1):
+        for j in range(n-1, -1, -1):
             if i - money[j] < 0:
                 continue
             else:
