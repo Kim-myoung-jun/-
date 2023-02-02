@@ -20,7 +20,7 @@ for k in range(1, node+1):
 
 x, k = map(int, input().split())
 distance = arr[1][k] + arr[k][x]
-if distance == INF:
-    print(-1)
+if distance >= INF:
+    print("-1")
 else:
     print(distance)
